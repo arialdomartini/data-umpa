@@ -20,5 +20,5 @@ dotnet pack
 Then publish it with:
 
 ```
-nuget push src\dataumpa\bin\Debug\DataUmpa.1.0.0.nupkg -k {api-key} -s https://api.nuget.org/v3/index.json
+dotnet nuget push src\dataumpa\bin\Debug\DataUmpa.1.0.0.nupkg -k {api-key} -s https://api.nuget.org/v3/index.json
 ```
