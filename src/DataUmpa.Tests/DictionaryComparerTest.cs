@@ -8,7 +8,7 @@ namespace DataUmpa.Tests
     public class DictionaryComparerTest
     {
         [Fact]
-        void combined()
+        void generates_actions_from_a_dictionary()
         {
             var left = new List<int> {1, /*2,*/ 3, 4}.ToImmutableDictionary(i => i, i => i.ToString());
             var right = new List<int>{1, 2, 3}.ToImmutableDictionary(i => i, i => i.ToString());
